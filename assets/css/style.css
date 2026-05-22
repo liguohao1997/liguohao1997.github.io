@@ -175,27 +175,16 @@ html[lang="zh-CN"] .nav-toggle {
 }
 
 .portrait-wrap {
-  position: relative;
   width: 166px;
   height: 208px;
-  margin-bottom: 1.55rem;
-  padding: 5px;
-  border: 1px solid var(--line);
   border-radius: 22px;
-  background: var(--surface);
-  box-shadow: 0 10px 28px rgba(32, 36, 42, .08);
   overflow: hidden;
 }
-.portrait-wrap::after { display: none; }
+
 .portrait {
-  display: block;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   object-position: center 34%;
-  border: 3px solid var(--paper-2);
   border-radius: 18px;
-  background: var(--paper-2);
 }
 
 .name {
