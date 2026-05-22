@@ -1,32 +1,45 @@
-# Guohao Li Academic Website
+# Guohao Li — Academic Homepage (v12)
 
-This is a simple static academic website for GitHub Pages. It does not use Jekyll or a complex theme.
+A static, two-page academic homepage with an editorial / scholarly visual
+design: white background, a muted academic accent, a serif display face
+(Fraunces) paired with a refined reading serif (Newsreader), numbered
+sections, a vertical education timeline, and reference-style paper lists.
 
-## File structure
+## Files
 
-```text
-.
-├── index.html
-├── zh.html
-├── .nojekyll
-├── assets/
-│   ├── css/style.css
-│   ├── js/main.js
-│   └── img/avatar-placeholder.svg
-└── .github/workflows/pages.yml
-```
+- `index.html` — English homepage
+- `zh.html` — Chinese homepage
+- `assets/css/style.css` — full visual style (colors, fonts, layout, motion)
+- `assets/js/main.js` — footer year, mobile navigation, active-section highlighting
+- `assets/img/avatar-placeholder.svg` — portrait placeholder (replace with a real photo)
 
-## Deployment on GitHub Pages
+## Routine updates
 
-1. Create or open your repository, for example `liguohao1997.github.io`.
-2. Upload all files in this folder to the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-5. Push to `master` or `main`. The workflow in `.github/workflows/pages.yml` will deploy the site.
+Most content updates only require editing `index.html` and `zh.html`:
 
-## Customization
+- **Papers** — add an `<li>` inside the relevant `<ol class="papers ...">`.
+  Numbering (`01`, `02`, … for working papers; `[1]`, `[2]`, … for
+  publications) is generated automatically by CSS.
+- **Education** — add an `<li>` to `<ul class="timeline">` with three spans:
+  `t-year`, `t-title`, `t-place`.
+- **Research interests** — edit the `<ul class="chips">` in the sidebar.
+- **Section numbers** (`01`–`05`) live in each `<span class="section-no">`.
 
-- Replace `assets/img/avatar-placeholder.svg` with your own portrait image, for example `guohao.jpg`.
-- If you change the image filename, update the `<img>` tag in `index.html` and `zh.html`.
-- Update publication links when DOI, journal pages, or working paper PDFs are ready.
-- Avoid uploading private information such as personal phone number, birth date, home address, or internal documents.
+## Notes
+
+- Fonts are loaded from Google Fonts; if offline, the page falls back to
+  Georgia / Songti and remains fully readable.
+- To use a real portrait, replace `assets/img/avatar-placeholder.svg` (a
+  square image around 360×360 px or larger works best).
+- Layout is responsive: a sticky sidebar on desktop, a stacked header on
+  tablets, and a collapsible menu on phones. A reduced-motion preference
+  disables the load-in animation.
+
+- English prose paragraphs use desktop two-sided alignment for a cleaner reading block; mobile keeps left alignment for readability.
+
+
+## v13 refinements
+
+- Removed numeric section labels for a cleaner heading hierarchy.
+- Reformatted research projects into multi-line entries, aligned with the paper-list style.
+- Emphasized advisor links and journal names with stronger color and italic styling.

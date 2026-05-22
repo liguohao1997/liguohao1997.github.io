@@ -3,191 +3,223 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Guohao Li | Healthcare Operations Management</title>
-  <meta name="description" content="Guohao Li, Assistant Professor at Zhengzhou University. Healthcare operations management, data-driven operations, smart healthcare, and service system design." />
+  <title>Guohao Li | Academic Homepage</title>
+  <meta name="description" content="Guohao Li, Assistant Professor at Zhengzhou University. Healthcare operations management, healthcare data analytics, and data-driven optimization." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top">Guohao Li</a>
-    <button class="menu-button" aria-label="Toggle navigation">Menu</button>
-    <nav class="nav">
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#working-papers">Working Papers</a>
-      <a href="#teaching-service">Service</a>
-      <a href="zh.html">中文</a>
-    </nav>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="site-title" href="index.html">Guohao Li</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#about">About Me</a>
+        <a href="#papers">Research</a>
+        <a href="#education">Education</a>
+        <a href="#service">Service</a>
+        <a class="lang" href="zh.html">中文</a>
+      </nav>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">School of Management, Zhengzhou University</p>
-        <h1>Guohao Li</h1>
-        <p class="subtitle">Assistant Professor / Lecturer in Healthcare Operations Management</p>
-        <p class="lead">
-          I study the design and control of healthcare service systems under capacity constraints,
-          complex patient behavior, and policy-induced operational incentives.
+  <div class="page">
+    <aside class="sidebar">
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/img/avatar-placeholder.svg" alt="Guohao Li portrait placeholder" />
+      </div>
+
+      <h1 class="name">Guohao Li</h1>
+      <p class="role">Assistant Professor</p>
+      <p class="affiliation">School of Management<br />Zhengzhou University</p>
+
+      <nav class="profile-links" aria-label="Profiles and contact">
+        <a href="mailto:liguohao@zzu.edu.cn">Email</a>
+        <a class="ext" href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="ext" href="https://github.com/liguohao1997" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+
+      <div class="interests">
+        <p class="interests-label">Research Interests</p>
+        <ul class="chips">
+          <li>Healthcare Operations</li>
+          <li>Healthcare Data Analytics</li>
+          <li>Data-Driven Optimization</li>
+          <li>Healthcare Policy Design</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="content">
+      <header class="hero">
+        <p class="kicker">Healthcare Operations Management</p>
+        <p class="lede">
+          My research examines healthcare service systems in which capacity constraints,
+          patient behavior, and institutional incentives jointly shape operational decisions
+          and system design.
         </p>
-        <div class="hero-actions">
-          <a class="button primary" href="mailto:liguohao@zzu.edu.cn">Email</a>
-          <a class="button" href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="button" href="#publications">Selected Work</a>
+      </header>
+
+      <section class="section" id="about">
+        <header class="section-head">
+          <h2>About Me</h2>
+        </header>
+        <div class="prose">
+          <p>
+            I am currently an Assistant Professor at the School of Management, Zhengzhou University.
+            I received my Ph.D. in Business Administration from the School of Economics and Management,
+            Tongji University. My doctoral advisor is
+            <a class="advisor-link" href="https://sem.tongji.edu.cn/semen/12570.html" target="_blank" rel="noopener">Professor Chunyang Tong</a>.
+            During my Ph.D. study, I was a joint-training doctoral student at the Sauder School of Business,
+            University of British Columbia, advised by
+            <a class="advisor-link" href="https://www.sauder.ubc.ca/people/mahesh-nagarajan" target="_blank" rel="noopener">Professor Mahesh Nagarajan</a>.
+          </p>
+          <p>
+            My research focuses on healthcare operations management, healthcare data analytics,
+            and data-driven optimization. I am particularly interested in the design, operational control,
+            and policy optimization of healthcare service systems with capacity constraints and complex
+            patient behavior. My research settings include tiered healthcare systems, healthcare payment
+            reform, and AI-assisted triage. Methodologically, I use stochastic modeling, optimization theory,
+            machine learning, and causal inference.
+          </p>
         </div>
-      </div>
-      <aside class="profile-card" aria-label="Profile summary">
-        <img class="avatar" src="assets/img/avatar-placeholder.svg" alt="Guohao Li portrait placeholder" />
-        <h2>Guohao Li</h2>
-        <p>郑州大学管理学院</p>
-        <p>School of Management, Zhengzhou University</p>
-        <dl>
-          <div><dt>Fields</dt><dd>Healthcare OM, data-driven operations, smart healthcare</dd></div>
-          <div><dt>Methods</dt><dd>Analytical modeling, optimization, queueing, game theory, machine learning, causal inference</dd></div>
-          <div><dt>Email</dt><dd><a href="mailto:liguohao@zzu.edu.cn">liguohao@zzu.edu.cn</a></dd></div>
-        </dl>
-      </aside>
-    </section>
+      </section>
 
-    <section class="section" id="about">
-      <h2>About</h2>
-      <p>
-        Guohao Li is an Assistant Professor / Lecturer at the School of Management, Zhengzhou University.
-        He received his Ph.D. in Business Administration from Tongji University and was a visiting doctoral
-        student in the Operations and Logistics Division at the Sauder School of Business, University of
-        British Columbia.
-      </p>
-      <p>
-        His research focuses on healthcare operations management, smart healthcare operations, telemedicine,
-        data-driven operations, and behavioral operations. His current work examines tiered healthcare systems,
-        patient choice, referral design, healthcare payment reform, medical resource allocation, and the
-        operational implications of machine learning and causal inference in service systems.
-      </p>
-    </section>
+      <section class="section" id="papers">
+        <header class="section-head">
+          <h2>Research</h2>
+        </header>
 
-    <section class="section" id="research">
-      <h2>Research Interests</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3>Healthcare Service System Design</h3>
-          <p>Tiered healthcare systems, referral design, gatekeeping, patient choice, access governance, and capacity allocation.</p>
-        </article>
-        <article class="card">
-          <h3>Smart Healthcare Operations</h3>
-          <p>Telemedicine, AI-assisted triage, medical resource scheduling, and data-enabled healthcare delivery.</p>
-        </article>
-        <article class="card">
-          <h3>Payment Reform and Operational Response</h3>
-          <p>DRG/DIP payment constraints, hospital operational adaptation, quality-risk trade-offs, and decision support.</p>
-        </article>
-        <article class="card">
-          <h3>Methods</h3>
-          <p>Optimization, game theory, queueing models, machine learning, causal inference, Python, SQL, MATLAB, and LaTeX.</p>
-        </article>
-      </div>
-    </section>
+        <h3 class="subhead">Selected Working Papers</h3>
+        <ol class="papers wp">
+          <li>
+            <span class="paper-title">The Impact of Patient Choice on Referral-Based Healthcare Systems.</span>
+            <span class="paper-meta">Guohao Li, Brian Rongqing Han, Chunyang Tong.</span>
+            <span class="paper-note">Under revision.</span>
+          </li>
+          <li>
+            <span class="paper-title">Telemedicine: Not Just If, But How It Bridges Healthcare Equity.</span>
+            <span class="paper-meta">Saif Benjaafar, Guohao Li, Xiaonan Li, Hai Wang, Xiaotang Yang.</span>
+            <span class="paper-note">Working paper.</span>
+          </li>
+          <li>
+            <span class="paper-title">Optimal Capacity Allocation under Endogenous Patient Choice: Theory and Evidence.</span>
+            <span class="paper-meta">Guohao Li, Mahesh Nagarajan, Chunyang Tong.</span>
+            <span class="paper-note">In progress.</span>
+          </li>
+          <li>
+            <span class="paper-title">How Patient Misreporting Destabilizes Referral-Based Healthcare Systems: A Game-Theoretical Analysis.</span>
+            <span class="paper-meta">Guohao Li.</span>
+            <span class="paper-note">In progress.</span>
+          </li>
+        </ol>
 
-    <section class="section" id="publications">
-      <h2>Selected Publications and Revisions</h2>
-      <ol class="pub-list">
-        <li>
-          <span class="pub-title">The Impact of Patient Choice on Referral-Based Healthcare Systems.</span>
-          <span class="pub-authors">Guohao Li, Brian Rongqing Han, Chunyang Tong.</span>
-          <span class="pub-venue">Management Science, Reject and Resubmit, 2026.</span>
-        </li>
-        <li>
-          <span class="pub-title">Optimizing Mixed Bundle Pricing Strategy: Advance Selling and Consumer Regret.</span>
-          <span class="pub-authors">Guoquan Zhang, Guohao Li, Jennifer Shang.</span>
-          <span class="pub-venue">Omega, 2023, 115.</span>
-        </li>
-        <li>
-          <span class="pub-title">Advance Selling Without Disclosing the Regular Price? The Role of Anticipated Regret.</span>
-          <span class="pub-authors">Guohao Li, Qihuan Chu.</span>
-          <span class="pub-venue">Managerial and Decision Economics, 2025.</span>
-        </li>
-        <li>
-          <span class="pub-title">Can Telemedicine Help Integrate the Referral-Based Healthcare System? An Economic and Operational Analysis.</span>
-          <span class="pub-authors">Xuejing Cao, Guohao Li, Heng Zhao.</span>
-          <span class="pub-venue">PLOS ONE, 2025.</span>
-        </li>
-        <li>
-          <span class="pub-title">Risk Assessment and Monitoring of Green Logistics for Fresh Produce Based on a Support Vector Machine.</span>
-          <span class="pub-authors">Guoquan Zhang, Guohao Li, Jing Peng.</span>
-          <span class="pub-venue">Sustainability, 2020.</span>
-        </li>
-      </ol>
-    </section>
+        <h3 class="subhead">Publications</h3>
+        <ol class="papers pubs">
+          <li>
+            <span class="paper-title">Optimizing Mixed Bundle Pricing Strategy: Advance Selling and Consumer Regret.</span>
+            <span class="paper-meta">Guoquan Zhang, Guohao Li, Jennifer Shang.</span>
+            <span class="paper-note"><em class="journal">Omega</em>, 2023, 115.</span>
+          </li>
+          <li>
+            <span class="paper-title">Advance Selling Without Disclosing the Regular Price? The Role of Anticipated Regret.</span>
+            <span class="paper-meta">Guohao Li, Qihuan Chu.</span>
+            <span class="paper-note"><em class="journal">Managerial and Decision Economics</em>, 2025.</span>
+          </li>
+          <li>
+            <span class="paper-title">Can Telemedicine Help Integrate the Referral-Based Healthcare System? An Economic and Operational Analysis.</span>
+            <span class="paper-meta">Xuejing Cao, Guohao Li, Heng Zhao.</span>
+            <span class="paper-note"><em class="journal">PLOS ONE</em>, 2025.</span>
+          </li>
+          <li>
+            <span class="paper-title">Risk Assessment and Monitoring of Green Logistics for Fresh Produce Based on a Support Vector Machine.</span>
+            <span class="paper-meta">Guoquan Zhang, Guohao Li, Jing Peng.</span>
+            <span class="paper-note"><em class="journal">Sustainability</em>, 2020.</span>
+          </li>
+        </ol>
+      </section>
 
-    <section class="section" id="working-papers">
-      <h2>Working Papers</h2>
-      <ol class="pub-list">
-        <li>
-          <span class="pub-title">Telemedicine: Not Just If, But How It Bridges Healthcare Equity.</span>
-          <span class="pub-authors">Saif Benjaafar, Guohao Li, Xiaonan Li, Hai Wang, Xiaotang Yang.</span>
-          <span class="pub-venue">Targeted for Manufacturing & Service Operations Management.</span>
-        </li>
-        <li>
-          <span class="pub-title">Optimal Capacity Allocation under Endogenous Patient Choice: Theory and Evidence.</span>
-          <span class="pub-authors">Guohao Li, Mahesh Nagarajan, Chunyang Tong.</span>
-          <span class="pub-venue">In progress.</span>
-        </li>
-        <li>
-          <span class="pub-title">How Patient Misreporting Destabilizes Referral-Based Healthcare Systems: A Game-Theoretical Analysis.</span>
-          <span class="pub-authors">Guohao Li.</span>
-          <span class="pub-venue">In progress.</span>
-        </li>
-      </ol>
-    </section>
-
-    <section class="section split">
-      <div>
-        <h2>Education</h2>
+      <section class="section" id="education">
+        <header class="section-head">
+          <h2>Education</h2>
+        </header>
         <ul class="timeline">
-          <li><strong>Tongji University</strong>, Ph.D. in Business Administration, 2021–2025.</li>
-          <li><strong>University of British Columbia</strong>, Visiting Doctoral Student, Sauder School of Business, 2024–2025.</li>
-          <li><strong>Jilin University</strong>, M.S. in Logistics Management, 2018–2020.</li>
-          <li><strong>Wuhan University of Technology</strong>, B.Eng. in Logistics Engineering, 2014–2018.</li>
+          <li>
+            <span class="t-year">2021 – 2025</span>
+            <span class="t-title">Ph.D. in Business Administration</span>
+            <span class="t-place">School of Economics and Management, Tongji University</span>
+          </li>
+          <li>
+            <span class="t-year">2024 – 2025</span>
+            <span class="t-title">Joint-training Ph.D. / Visiting Doctoral Student</span>
+            <span class="t-place">Sauder School of Business, University of British Columbia</span>
+          </li>
+          <li>
+            <span class="t-year">2018 – 2020</span>
+            <span class="t-title">M.S. in Logistics Management</span>
+            <span class="t-place">Jilin University</span>
+          </li>
+          <li>
+            <span class="t-year">2014 – 2018</span>
+            <span class="t-title">B.Eng. in Logistics Engineering</span>
+            <span class="t-place">Wuhan University of Technology</span>
+          </li>
         </ul>
-      </div>
-      <div>
-        <h2>Research Projects</h2>
-        <ul class="timeline">
-          <li>National Natural Science Foundation of China Major Program, core participant, 2025–2029.</li>
-          <li>National Natural Science Foundation of China General Program, participant, 2022–2025.</li>
-        </ul>
-      </div>
-    </section>
+      </section>
 
-    <section class="section split" id="teaching-service">
-      <div>
-        <h2>Academic Service</h2>
-        <p>
-          Reviewer for journals including <em>Journal of the Operational Research Society</em>,
-          <em>IEEE Transactions on Engineering Management</em>, and <em>Annals of Operations Research</em>.
+      <section class="section" id="service">
+        <header class="section-head">
+          <h2>Service &amp; Projects</h2>
+        </header>
+
+        <h3 class="subhead">Research Projects</h3>
+        <ul class="projects">
+          <li>
+            <span class="project-title">Data-Driven Theory and Dynamic Optimization for National Macroscale Healthcare Policy Design.</span>
+            <span class="project-meta">Major Program of the National Natural Science Foundation of China, No. 72495133.</span>
+            <span class="project-note">Participant, 2025.01–2029.12.</span>
+          </li>
+          <li>
+            <span class="project-title">The Impact of Vertical Integration of Healthcare Institutions on the Efficiency of Healthcare Service Systems.</span>
+            <span class="project-meta">General Program of the National Natural Science Foundation of China, No. 72172104.</span>
+            <span class="project-note">Participant, 2022.01–2025.12.</span>
+          </li>
+        </ul>
+
+        <h3 class="subhead">Academic Service</h3>
+        <p class="prose">
+          Reviewer for <em class="journal">Journal of the Operational Research Society</em>,
+          <em class="journal">IEEE Transactions on Engineering Management</em>, and
+          <em class="journal">Annals of Operations Research</em>.
         </p>
-      </div>
-      <div>
-        <h2>Conference Presentations</h2>
-        <ul class="timeline">
+
+        <h3 class="subhead">Conference Presentations</h3>
+        <ul class="compact-list">
           <li>2023 POMS International Conference in China.</li>
           <li>The 14th POMS-HK International Conference.</li>
         </ul>
-      </div>
-    </section>
+      </section>
 
-    <section class="section contact" id="contact">
-      <h2>Contact</h2>
-      <p>
-        School of Management, Zhengzhou University<br />
-        No. 100 Kexue Avenue, Zhengzhou, Henan, China, 450001<br />
-        Email: <a href="mailto:liguohao@zzu.edu.cn">liguohao@zzu.edu.cn</a>
-      </p>
-    </section>
-  </main>
+      <section class="section" id="contact">
+        <header class="section-head">
+          <h2>Contact</h2>
+        </header>
+        <p class="prose">
+          Email: <a href="mailto:liguohao@zzu.edu.cn">liguohao@zzu.edu.cn</a><br />
+          School of Management, Zhengzhou University, Zhengzhou, China.
+        </p>
+      </section>
 
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Guohao Li. Built with GitHub Pages.</p>
-  </footer>
+      <footer class="footer">
+        <p>© <span id="year"></span> Guohao Li · Last updated 2026</p>
+      </footer>
+    </main>
+  </div>
 
   <script src="assets/js/main.js"></script>
 </body>

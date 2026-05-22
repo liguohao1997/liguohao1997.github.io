@@ -1,12 +1,6 @@
-<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portrait placeholder">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#dcecf6"/>
-      <stop offset="100%" stop-color="#eff6f5"/>
-    </linearGradient>
-  </defs>
-  <rect width="240" height="240" rx="42" fill="url(#g)"/>
-  <circle cx="120" cy="86" r="38" fill="#1f5f8b" opacity="0.78"/>
-  <path d="M58 196c8-42 32-66 62-66s54 24 62 66" fill="#1f5f8b" opacity="0.78"/>
-  <text x="120" y="226" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#5d6979">GL</text>
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portrait placeholder">
+  <rect width="320" height="320" fill="#eef1f5"/>
+  <circle cx="160" cy="120" r="56" fill="#c2cbd8"/>
+  <path d="M70 286c10-70 46-108 90-108s80 38 90 108" fill="#c2cbd8"/>
+  <text x="160" y="305" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2a4f7c">Guohao Li</text>
 </svg>
