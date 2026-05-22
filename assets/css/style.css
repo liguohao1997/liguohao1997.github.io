@@ -193,7 +193,7 @@ html[lang="zh-CN"] .nav-toggle {
   height: 100%;
   object-fit: contain;
   object-position: center center;
-  transform: scale(0.92);
+  transform: scale(0.95);
   border: 3px solid var(--paper-2);
   border-radius: 50%;
   background: var(--paper-2);
